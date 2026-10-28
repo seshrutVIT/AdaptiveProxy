@@ -2,6 +2,8 @@
 
 A Next.js demo of a reverse proxy that measures how fast each backend responds and routes new packets to the fastest one. A live diagram shows packets going from the internet, through the proxy, to the servers.
 
+The proxy supports round-robin and latency-aware routing, with backend health checks and automatic failover.
+
 ## Run
 
 ```bash
